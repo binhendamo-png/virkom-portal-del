@@ -4,7 +4,7 @@ FROM nginx:alpine
 # Metadata standar OCI untuk menautkan paket GHCR ke repositori GitHub
 LABEL org.opencontainers.image.source="https://github.com/binhendamo-png/virkom-portal-del"
 LABEL org.opencontainers.image.description="Portal Akademik D3 TK IT Del berbasis Custom Docker Image"
-LABEL org.opencontainers.image.version="2.0.0"
+LABEL org.opencontainers.image.version="2.0.1"
 
 # Salin seluruh berkas web statis dari folder src/ ke direktori root Nginx
 COPY src/ /usr/share/nginx/html/
